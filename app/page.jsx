@@ -61,7 +61,9 @@ const heroImageUrl =
   "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1800&q=85";
 
 export default function Home() {
-  const applyUrl = process.env.NEXT_PUBLIC_APPLY_URL || "#";
+  const applyUrl =
+    process.env.NEXT_PUBLIC_APPLY_URL ||
+    "https://docs.google.com/forms/d/e/1FAIpQLScKrvq2kcBJpAaIZnHQDAfh9A6xmBadvZNlfxcMm2DfCxh1nw/viewform";
 
   return (
     <>
@@ -75,7 +77,7 @@ export default function Home() {
           <a href="#curriculum">内容</a>
           <a href="#overview">開催概要</a>
         </nav>
-        <a className="header-cta" href="#apply">
+        <a className="header-cta" href={applyUrl}>
           申し込む
         </a>
       </header>
@@ -94,7 +96,7 @@ export default function Home() {
               明日から使える自動化とアウトプット高速化を自社PCで体験する半日講座です。
             </p>
             <div className="hero-actions" aria-label="主要アクション">
-              <a className="button primary" href="#apply">
+              <a className="button primary" href={applyUrl}>
                 今すぐ実践ワークに申し込む
               </a>
               <a className="button secondary" href="#curriculum">
