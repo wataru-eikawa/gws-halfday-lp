@@ -101,11 +101,12 @@ export default function Home() {
           </div>
           <div className="hero-overlay" />
           <div className="hero-inner">
-            <p className="eyebrow">2026年6月23日開催 / 中小企業向け実践型ハンズオン</p>
+            <p className="eyebrow">専門知識ゼロでOK / 中小企業向け実践型ハンズオン / 2026年6月23日(火)・名古屋開催</p>
             <h1>Google WorkspaceとGeminiで、毎日の仕事を「探す・作る・まとめる」から解放する。</h1>
             <p className="lead">
               Drive、Gmail、スプレッドシート、ドキュメント、スライド。いつものGoogle WorkspaceにGeminiを組み込み、
-              クラウド活用、データ整理、資料作成までを自分のPCで体験する4時間講座です。
+              クラウド活用、データ整理、資料作成までを自分のPCで体験する4時間講座です。むずかしい予備知識は不要。
+              ノートPC1台で参加でき、当日に手を動かして覚えた手順は、翌日からそのまま自社の仕事に使えます。
             </p>
             <div className="hero-actions" aria-label="主要アクション">
               <a className="button primary" href={applyUrl}>
@@ -245,7 +246,7 @@ export default function Home() {
             <p className="eyebrow">受付中</p>
             <h2 id="apply-title">Google Workspaceを、会社の生産性を上げる基盤に変えましょう。</h2>
             <p>
-              定員は20名です。申込フォームから、会社名、お名前、参加人数、特に知りたいテーマを入力してください。
+              定員20名の少人数開催です。席が埋まり次第、受付を終了します。申込フォームに会社名・お名前・参加人数・特に知りたいテーマをご入力ください。折り返し、当日のご案内をお送りします。
             </p>
           </div>
           <div className="apply-box">
